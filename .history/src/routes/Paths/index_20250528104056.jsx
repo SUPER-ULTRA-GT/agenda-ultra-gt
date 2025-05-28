@@ -10,7 +10,7 @@ const Paths = () => {
             <Routes>
                 <Route path="/" element={<SiteLayout />}>
                     <Route path="/hideki" element={<Hideki />} />
-                    <Route path="/victor" element={<Victor />} />
+                    <Route path="/victor" element={< />} />
                 </Route>
             </Routes>
         </BrowserRouter>

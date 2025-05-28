@@ -1,0 +1,5 @@
+con = () => {
+    return (  );
+}
+ 
+export defau;
