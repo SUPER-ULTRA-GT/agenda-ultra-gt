@@ -19,4 +19,4 @@ const Paths = () => {
 
 export default Paths;
 
-import Giovana from "../../pages/Giovana";
+sfc
