@@ -17,3 +17,5 @@ const Paths = () => {
 }
 
 export default Paths;
+
+sfc
