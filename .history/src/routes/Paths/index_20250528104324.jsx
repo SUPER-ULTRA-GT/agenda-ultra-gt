@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SiteLayout from "../../SiteLayout";
 import Hideki from "../../pages/Hideki";
-import Fablilson from "../../pages/fablilson";
 
 const Paths = () => {
     return (
@@ -10,7 +9,7 @@ const Paths = () => {
             <Routes>
                 <Route path="/" element={<SiteLayout />}>
                     <Route path="/hideki" element={<Hideki />} />
-                    <Route path="/fablilson" element={<Fablilson />} />
+                    <Roue path="/fablilson"
                 </Route>
             </Routes>
         </BrowserRouter>
