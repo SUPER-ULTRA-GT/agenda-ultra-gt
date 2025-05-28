@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroui/button": "^2.2.19",
+    "@heroui/popover": "^2.3.19",
     "@tailwindcss/vite": "^4.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.1",
     "tailwindcss": "^4.1.7"
   },
