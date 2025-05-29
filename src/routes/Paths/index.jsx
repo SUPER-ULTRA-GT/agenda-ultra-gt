@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SiteLayout from "../../SiteLayout";
 import Hideki from "../../pages/Hideki";
+import { Julia } from "../../pages/Julia/index"
 
 const Paths = () => {
     return (
@@ -9,6 +10,7 @@ const Paths = () => {
             <Routes>
                 <Route path="/" element={<SiteLayout />}>
                     <Route path="/hideki" element={<Hideki />} />
+                    <Route path="/julia" element={<Julia />} />
                 </Route>
             </Routes>
         </BrowserRouter>
@@ -17,5 +19,3 @@ const Paths = () => {
 }
 
 export default Paths;
-
-sfc
