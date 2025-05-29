@@ -1,13 +1,22 @@
 import Card from "../Card";
 
-const Catalogo = () => {
+const Catalogo = ({contatos , removerContato}) => {
     return ( 
-        <div className="border h-full p-2.5 mt-2.5 bg-purple-400">
-            <p>Catalogo</p>
-            <Card/>
-       
-        </div>
-     );
+       <div className="space-y-10">
+      {contatos.length === 0 ? (
+        <p className="text-center text-gray-500"></p>
+      ) : (
+        contatos.map((contato, index) => (
+          <Card
+            key={index}
+            nome={contato.nome}
+            email={contato.email}
+            onRemover={() => removerContato(index)}
+          />
+        ))
+      )}
+    </div>
+    ) ;
 }
  
 export default Catalogo;
