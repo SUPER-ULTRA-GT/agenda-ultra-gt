@@ -1,0 +1,15 @@
+import BarradePesquisa from "../BarradePesquisa";
+
+const Title = () => {
+    return ( 
+        <>
+        <div className="flex justify-between bg-gray-600  px-5 py-4" >
+        <h1 className="text-white">LISTA DE EMPRESAS</h1>
+       <img src="data:image/png;base64,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" alt="Logo" className="h-10 w-auto" />
+        <BarradePesquisa />
+        </div>
+        </>
+     );
+}
+ 
+export default Title;
