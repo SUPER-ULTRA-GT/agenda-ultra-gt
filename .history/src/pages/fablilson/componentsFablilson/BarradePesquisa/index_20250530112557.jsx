@@ -24,13 +24,12 @@ const BarradePesquisa = () => {
 
   return (
     <div className="p-4">
-      <input
+      <onClick={() => setResultados([])}    
         className="px-1.5 placeholder-white border-2 border-solid border-white rounded-2xl text-white"
         type="text"
         placeholder="Digite um nome"
         value={pesquisa}
         onChange={(e) => setPesquisa(e.target.value)}
-        onClick={() => setResultados([])}
       />
       <button
         className="ml-2 px-3 py-1 bg-blue-500 text-white rounded"

@@ -18,7 +18,7 @@ const BarradePesquisa = () => {
     const filtrados = pessoas.filter((pessoa) =>
       pessoa.nome.toLowerCase().includes(pesquisa.toLowerCase())
     );
-    setResultados(filtrados);   
+    setResultados();   
     setPesquisa('');
   };
 
@@ -30,7 +30,6 @@ const BarradePesquisa = () => {
         placeholder="Digite um nome"
         value={pesquisa}
         onChange={(e) => setPesquisa(e.target.value)}
-        onClick={() => setResultados([])}
       />
       <button
         className="ml-2 px-3 py-1 bg-blue-500 text-white rounded"

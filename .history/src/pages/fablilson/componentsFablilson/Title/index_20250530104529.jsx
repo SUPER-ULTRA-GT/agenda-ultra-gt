@@ -8,7 +8,7 @@ const Title = () => {
     <img
     src="https://img.freepik.com/vetores-gratis/logotipo-do-edificio-3d_1025-14.jpg?ga=GA1.1.1426356154.1748610575&semt=ais_items_boosted&w=740"
     alt="Logo"
-    className="h-30 w-auto rounded-full border-2"
+    className="h-30 w-auto  object-cover"
     />
     <h1 className="text-white text-xl font-bold">LISTA DE FUNCIÓNARIOS</h1>
     </div>
