@@ -77,8 +77,8 @@ const Hideki = () => {
                 onClose={fecharModal}
             >
                 <div className="flex flex-col gap-4">
-                    <h2 className="text-2xl font-bold">
-
+                    <h2 className="text-2xl font-bold text-center">
+                        {contatinhoAtual.id ? 'Editar Contatinho' : 'Adicionar Contatinho'}
                     </h2>
                     <form onSubmit={salvarContatinho} className="flex flex-col gap-4">
                         <div>
@@ -116,14 +116,14 @@ const Hideki = () => {
                         <div className="flex justify-end gap-2">
                             <button
                                 type="button"
-                                className="px-4 py-2 border border-red-800 rounded hover:bg-red-50 hover:text-black"
+                                className="px-4 py-2 border border-red-800 rounded hover:bg-red-50 hover:text-black cursor-pointer"
                                 onClick={fecharModal}
                             >
                                 Cancelar
                             </button>
                             <button
                                 type="submit"
-                                className="bg-green-700 py-2 px-4 rounded hover:bg-green-900"
+                                className="bg-green-700 py-2 px-4 rounded hover:bg-green-900 cursor-pointer"
                             >
                                 {contatinhoAtual.id ? 'Salvar' : 'Adicionar'}
                             </button>

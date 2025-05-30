@@ -7,8 +7,8 @@ const Contatinhos = ({ esquemas, onDelete, onEdit }) => {
             {esquemas.map(esquema => (
                 <li key={esquema.id} className='flex justify-between border-b-2 border-b-red-800 border-solid pb-4 px-4 items-center'>
                     <div className='flex flex-col gap-2'>
-                        <p><span className='font-bold text-red-950'>Contatinho:</span> {esquema.nome}</p>
-                        <p><span className='font-bold text-red-950'>Instagram:</span> {esquema.instagram}</p>
+                        <p><span className='font-bold text-red-900'>Contatinho:</span> {esquema.nome}</p>
+                        <p><span className='font-bold text-red-900'>Instagram:</span> {esquema.instagram}</p>
                     </div>
                     <div className='flex gap-4 max-w-5 h-fit mr-8 cursor-pointer '>
                         <img

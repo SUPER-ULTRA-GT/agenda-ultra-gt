@@ -13,6 +13,7 @@
     "@heroui/button": "^2.2.19",
     "@heroui/popover": "^2.3.19",
     "@tailwindcss/vite": "^4.1.7",
+    "gt-collab": "file:",
     "lucide-react": "^0.511.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
