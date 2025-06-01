@@ -1,5 +1,5 @@
-// 2. Search/index.jsx
-import React from 'react';
+ 
+
 import { Search } from 'lucide-react';
 
 export default function SearchBar({ pesquisa, setPesquisa }) {

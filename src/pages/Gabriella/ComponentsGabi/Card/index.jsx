@@ -1,4 +1,4 @@
-export default function Card({ nome , numero , instagram}) {
+export default function CardGabi({ nome , numero , instagram}) {
   return (
     <div className="bg-blue-50 p-4 rounded shadow">
       <p className="font-medium">{nome}</p>

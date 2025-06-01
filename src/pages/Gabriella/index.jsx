@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
-import Title from './Title';
-import SearchBar from './Search';
-import CatalogoContatos from './Container';
+// import React { useState } from 'react';
+import { useState } from 'react';
+import Title from '../Gabriella/ComponentsGabi/Title';
+import SearchBar from '../Gabriella/ComponentsGabi/SearchGabi';
+import CatalogoContatos from '../Gabriella/ComponentsGabi/Container';
+import Cardgabi from '../Gabriella/ComponentsGabi/Card';
+import AddButton from '../Gabriella/ComponentsGabi/Button';
+
 
 const contatosIniciais = [
   { nome: 'Ana Clara', numero: '11 91234-5678', instagram: 'ana_clara' },
