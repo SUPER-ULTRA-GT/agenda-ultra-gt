@@ -6,6 +6,7 @@ import Vendel from "../../pages/Vendel";
 import Fablilson from "../../pages/fablilson";
 import Barradepesquisa from "../../pages/Willame/componentsWillame/Barradepesquisa";
 import Willame from "../../pages/Willame";
+import Giovana from "../../pages/Giovana";
 
 
 const Paths = () => {
@@ -22,6 +23,7 @@ const Paths = () => {
                         <Route path="/Willame/pesquisa" element={< Barradepesquisa/>} />
                         <Route path="/Willame" element={< Willame/>} />
                         <Route path="/fablilson" element={<Fablilson />} />
+                        <Route path="/giovana" element={<Giovana />} />
                     </Route>
                 </Routes>
         </BrowserRouter>
