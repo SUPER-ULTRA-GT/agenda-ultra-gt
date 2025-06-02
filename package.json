@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.4",
     "@heroui/button": "^2.2.19",
     "@heroui/popover": "^2.3.19",
     "@tailwindcss/vite": "^4.1.7",
